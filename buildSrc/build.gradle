@@ -3,6 +3,7 @@ plugins {
 }
 
 repositories {
+	maven { url 'http://store.vicp.la/repository/maven-public/' }
 	mavenCentral()
 	gradlePluginPortal()
 }
